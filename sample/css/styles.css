@@ -1,0 +1,22 @@
+.main-bg {
+  background: rgb(255,0,0);
+  background: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,145,0,1) 50%, rgba(235,0,255,1) 95%);
+  }
+
+input:focus, button:focus {
+  border: 1px solid var(--main-bg) !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--main-bg) !important;
+  border-color: var(--main-bg) !important;
+}
+
+.card, .btn, input{
+
+  border-radius:0 !important;
+}
+.login{
+  margin: 50px;
+}
